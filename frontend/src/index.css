@@ -1,0 +1,19 @@
+.body{
+  overflow: auto;
+}
+
+.navbar-brand-title{
+  /*font-family: 'Permanent Marker', cursive;*/
+  font-family: 'Pacifico', cursive;
+}
+#brand-title{
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 2px;
+}
+
+.headerTitles{
+  font-family: 'Salsa', cursive;
+}
+.p{
+  font-family: 'Fira Sans', sans-serif;
+}

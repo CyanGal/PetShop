@@ -1,0 +1,82 @@
+/*DESKTOP VIEW*/
+@media screen and (min-width:1200px){
+
+.text-rightTable{
+    width: 500px;
+}
+.checkout-button{
+    margin-bottom: 1rem;
+    background-color: rgba(165, 42, 42, 0.591);
+    border-color: rgba(165, 42, 42, 0.591);
+}
+
+}
+/*TABLET VIEW*/
+@media screen and (min-width:768px) and (max-width:1024px){
+    .text-rightTable{
+        width: 500px;
+    }
+    .checkout-button{
+        margin-bottom: 1rem;
+        background-color: rgba(165, 42, 42, 0.591);
+        border-color: rgba(165, 42, 42, 0.591);
+    }
+
+}
+/*MOBILE VIEW*/
+@media screen and (min-width:320px) and (max-width:414px){
+    .product-table, .product-table tr {
+        display: block;
+      }
+    
+    
+      .product-table thead tr th {
+        display: block;
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        font-weight: bold;
+  
+      }
+    
+      
+      .product-table tbody tr td {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: .5rem; 
+        border: none; 
+      }
+    
+      /* Stack the name, image, price, quantity, and price cells on top of each other */
+      .product-table tbody tr td:nth-of-type(1)::before { content: "Name: "; }
+      .product-table tbody tr td:nth-of-type(2)::before { content: "Image: "; }
+      .product-table tbody tr td:nth-of-type(3)::before { content: "Price: "; }
+      .product-table tbody tr td:nth-of-type(4)::before { content: "Quantity: "; }
+      .product-table tbody tr td:nth-of-type(5)::before { content: "Total Price: "; }
+    
+
+      .product-table img {
+        max-width: 100%;
+        height: auto;
+        margin-top: .5rem;
+      }
+    
+      .product-table td {
+        padding: .5rem 0; 
+      }
+    
+      .product-table button {
+        margin: 0 .25rem;
+      }
+    
+    .text-rightTable{
+        width: 300px;
+    }
+    .checkout-button{
+        margin-bottom: 1rem;
+        background-color: rgba(165, 42, 42, 0.591);
+        border-color: rgba(165, 42, 42, 0.591);
+    }
+}

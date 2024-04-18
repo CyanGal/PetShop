@@ -1,0 +1,150 @@
+
+/*DESKTOP VIEW*/
+@media screen and (min-width:1200px) {
+   .home-carousel{
+    display: none;
+  }
+  .home-text{
+    color: black;
+  } 
+
+ .homepage-desktop{
+   display: flex;
+   margin-top: 3.5rem;
+   margin-left: 3rem;
+   height: 500px;
+   margin-bottom: 1rem;
+
+ }
+
+ .home-imagea{
+  transform: translate(150px, 120px);
+  width:180px;
+  height: 180px;
+  border-radius: 100px;
+  z-index: 2;
+ }
+ .home-imageb{
+  transform: translate(90px, -10px);
+  width:150px;
+  height: 150px;
+  border-radius: 100px;
+  z-index: 2;
+ }
+ .home-imagec{
+  transform: translate(-150px, 280px);
+  width:120px;
+  height: 120px;
+  border-radius: 100px;
+  z-index: 2;
+ }
+ .home-colorImg1{
+  transform: translate(-10px, 120px);
+  width:40px;
+  height: 40px;
+  border-radius: 100px;
+ }
+ .home-colorImg5{
+  transform: translate(30px, 250px);
+  width:60px;
+  height: 60px;
+  border-radius: 100px;
+ }
+ .home-colorImg2{
+  transform: translate(50px, -10px);
+  width:35px;
+  height: 35px;
+  border-radius: 100px;
+  z-index: 1;
+ }
+ .home-colorImg3{
+  transform: translate(-110px, 90px); 
+  width:55px;
+  height: 55px;
+  border-radius: 100px;
+ }
+ .home-colorImg4{
+  transform: translate(-260px, 365px);
+  width:35px;
+  height: 35px;
+  border-radius: 100px;
+ }
+ .home-colorImg6{
+  transform: translate(-240px, 270px);
+  width:60px;
+  height: 60px;
+  border-radius: 100px;
+ }
+  .home-carousel1{
+
+    width: 650px;
+    height: 400px !important;
+    transform: translate(-160px);
+  
+  }
+  .home-carousel1 .carousel-control-prev,
+  .home-carousel1 .carousel-control-next {
+  filter: invert(100%);
+}
+  .home-image1{
+    width: 100%;
+    height: 400px;
+
+  }
+}
+
+/*TABLET VIEW*/
+@media screen and (min-width:587px) and (max-width:1024px){
+  .home-carousel{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: auto;
+  }
+  .home-image{
+    width: 100%;
+    height: 400px;
+  }
+  .home-text{
+    color: rgb(255, 255, 255);
+    background-color: rgba(9, 9, 8, 0.426);
+    border-radius: 30px;
+    height: 320px;
+    width: 100%;
+  }
+  .homepage-desktop{
+    display: none;
+  }
+}
+
+/*MOBILE VIEW*/
+@media screen and (min-width:320px) and (max-width:586px){
+  .home-carousel{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  
+  }
+
+  .home-image{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    
+  }
+  
+  .home-text{
+    color: rgb(250, 246, 246);
+    background-color: rgba(9, 9, 8, 0.426);
+    border-radius: 20px;
+    padding-top: 0.5rem;
+    font-size: 14px;
+    height: 248px;
+    width: 100%;
+  }
+  .headerTitles{
+    font-size: 20px;
+  }
+  .homepage-desktop{
+    display: none;
+  }
+}

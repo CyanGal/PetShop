@@ -1,0 +1,58 @@
+/*DESKTOP VIEW*/
+@media screen and (min-width:1200px){
+    .conditionscard{
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: Georgia, 'Times New Roman', Times;
+      }
+    
+      .conditionscard h6{
+          font-size: 15px;
+          font-weight: bold;
+          color: #d29567;
+      }
+      .conditions-header{
+        font-size: 40px;
+      }
+    
+      .conditionscard p{
+          font-size: 13px;
+      }
+      .conditionscard .card-header {
+          background: none;
+          border: none;
+          padding: 0;
+          text-align: center;
+          text-decoration: underline;
+        }
+    }
+    /*MOBILE & TABLET VIEW*/
+    @media screen and (min-width:320px) and (max-width:1024px){
+        .conditionscard{
+    
+            font-family: Georgia, 'Times New Roman', Times;
+          }
+        
+          .conditionscard h6{
+              font-size: 17px;
+              font-weight: bold;
+              color: #d29567;
+          }
+    
+        
+          .conditions-text{
+              font-size: 14px;
+          }
+          .conditionscard .card-header {
+              background: none;
+              border: none;
+              padding: 0;
+              text-align: center;
+              text-decoration: underline;
+            }
+            .blockquote-footer{
+               font-size: 12px;
+            }
+    }

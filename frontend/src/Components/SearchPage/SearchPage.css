@@ -1,0 +1,124 @@
+
+/*DESKTOP VIEW*/
+@media screen and (min-width:1200px){
+  .search-overlay {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #fff; 
+  background-color: transparent;
+  color: #fff; 
+  font-size: 16px;
+}
+
+ .search-button{
+  display: flex;
+  transform: translate(30px,30px);
+ }
+/* .search-btn {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+} */
+}
+
+/*TABLET VIEW*/
+@media screen and (min-width:587px) and (max-width:1024px){
+  .search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff; 
+    background-color: transparent;
+    color: #fff; 
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+}
+
+/*MOBILE VIEW*/
+@media screen and (min-width:320px) and (max-width:586px){
+  .search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff; 
+    background-color: transparent;
+    color: #fff; 
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+}

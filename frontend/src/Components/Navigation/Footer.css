@@ -1,0 +1,297 @@
+
+/*DESKTOP VIEW*/
+@media screen and (min-width:1200px) {
+
+.shop-footer{
+
+    bottom: auto;
+    width: 100%;
+    height: 33%;
+    background-color: #30210d;
+    color: white; 
+    text-align: center;
+    z-index: 1000; 
+}
+
+.parent {
+    width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: rgb(218, 215, 174);
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: space-around;
+  }
+  
+  .child1 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .shop-logo{
+    width: 90px;
+    height: 90px;
+    margin-top: 1rem;
+    border-radius: 60px;
+  }
+  span {
+    color: beige;
+  }
+  #brand-title{
+    display: flex;
+    align-items: right;
+    position: relative;
+    top: -30px;
+    margin-left: 1rem; 
+  }
+  .child2 {
+    margin-top: 1rem;
+    width: 200px;
+    font-size: 16px;
+    gap: 12px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  .child3 {
+    margin-top: 1rem;
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .icon-row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+ #footer-headers{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    gap: 2px;
+ }
+
+  .terms {
+    color: beige;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 21rem;
+    margin-top: 1rem;
+  }
+}
+
+/*TABLET VIEW*/
+@media screen and (min-width:587px) and (max-width:1024px){
+  .shop-footer{
+    width: 100%;
+    background-color: #333;
+    color: white; 
+    text-align: center;
+    z-index: 1000; 
+}
+
+.parent {
+     width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: rgb(218, 215, 174);
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: space-around;
+  }
+  
+  .child1 {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .shop-logo{
+    width: 60px;
+    height: 60px;
+    margin-top: 1rem;
+    border-radius: 60px;
+    flex-wrap: wrap;
+  }
+  span {
+    color: beige;
+  }
+  #brand-title{
+    display: flex;
+    align-items: right;
+    position: relative;
+    top: -30px;
+    margin-left: 1rem; 
+    flex-wrap: wrap;
+  }
+  .child2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: fit-content;
+    font-size: 13px;
+    gap:5px;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .child3 {
+    margin-top: 1rem;
+    width: 200px;
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.2rem;
+    gap: 15px;
+  }
+  .register-button{
+    display: flex;
+    flex-direction: row;
+  }
+ #footer-headers{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    gap: 2px;
+ }
+
+  .terms {
+    color: beige;
+    font-size: 14px;
+    height: auto;
+    display: flex;
+    align-items: right;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/*MOBILE/TABLET VIEW*/
+@media screen and (min-width:320px) and (max-width:586px){
+    .shop-footer{
+        width: 100%;
+        background-color: #333;
+        color: white; 
+        text-align: center;
+        z-index: 1000; 
+    }
+    
+    .parent {
+         width: 100%;
+          height: 50%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          color: rgb(218, 215, 174);
+          flex-wrap: wrap;
+          align-items: flex-start;
+          align-content: space-around;
+      }
+      
+      .child1 {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      .shop-logo{
+        width: 60px;
+        height: 60px;
+        margin-top: 1rem;
+        border-radius: 60px;
+      }
+      span {
+        color: beige;
+      }
+      #brand-title{
+        display: flex;
+        align-items: right;
+        position: relative;
+        top: -30px;
+        margin-left: 1rem; 
+      }
+      .child2 {
+        margin-top: 1rem;
+        margin-right: 0.67rem;
+        width: 200px;
+        font-size: 10px;
+        gap:3px;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+        justify-content: space-evenly;
+        align-items: left;
+      }
+      
+      .child3 {
+        margin-top: 1rem;
+        width: 200px;
+        display: flex;
+        flex-direction:column;
+        align-content: right;
+        justify-content: space-evenly;
+        align-items: right;
+      }
+      .icon-row{
+        display: flex;
+        flex-direction: row;
+        align-items: right;
+        margin-left: 3rem;
+        gap: 15px;
+      }
+      .register-button{
+        display: flex;
+        flex-direction: row;
+      }
+     #footer-headers{
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        gap: 2px;
+     }
+    
+      .terms {
+        color: beige;
+        font-size: 14px;
+        height: auto;
+        display: flex;
+        align-items: right;
+        margin-left: 1rem;
+        margin-top: 1rem;
+      }
+} 
